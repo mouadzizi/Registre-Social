@@ -11,7 +11,7 @@ import SignUp from '../pages/SignUp';
 import Privacy from '../pages/PrivacyPlolicy';
 
 
-import Acceuil from '../pages/Acceuil';
+import Bottom from './BottomNav';
 
 export default function StackAuth() {
     const Stack = createStackNavigator();
@@ -23,8 +23,14 @@ export default function StackAuth() {
                 <Stack.Screen name="SignIn" component={SignIn} options={{ headerShown: false }} />
                 <Stack.Screen name="SignUp" component={SignUp} options={{ headerShown: false }} />
                 
-                <Stack.Screen name="Acceuil" component={Acceuil}
-                    options={{ title: 'Espace Client', headerTitleAlign: 'center' }}
+                <Stack.Screen name="Acceuil" component={Bottom}
+                    options={{ 
+                        title: 'Registre Social Maroc',
+                        headerTitleAlign: 'center',
+                        headerTintColor: "#fff",
+                        headerStyle: {
+                        backgroundColor: '#83A9DA',
+                    }, }}
                 />
                 
                 <Stack.Screen name="Condition generales" component={Privacy}/>

@@ -88,7 +88,7 @@ export default function SignUp({navigation}) {
         
         <TouchableOpacity
         onPress={()=> navigation.replace('SignIn')}>
-          <Text style={{color:'green'}}>Se connecter</Text>
+          <Text style={{color:'#83A9DA'}}>Se connecter</Text>
         </TouchableOpacity>
         </View>
 

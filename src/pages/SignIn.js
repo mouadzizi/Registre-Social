@@ -53,7 +53,7 @@ export default function SignIn({navigation}) {
         />
 
         <TouchableOpacity
-        onPress={()=> alert('oups, noublier pas la prochaine fois ;)')}>
+        onPress={()=> alert('Exemple, Um email sera envoyer sur votre boite email ;)')}>
         <Text style={{
           marginTop: 15,
           fontWeight: 'bold',

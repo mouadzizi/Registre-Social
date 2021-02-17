@@ -1,8 +1,7 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { Text } from 'react-native'
 import { ScrollView } from 'react-native-gesture-handler';
 
-import {GlobalStyle} from '../style/GlobalStyle';
 
 export default function PrivacyPlolicy() {
     return (

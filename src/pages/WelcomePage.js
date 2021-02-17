@@ -64,15 +64,15 @@ export default function WelcomePage( {navigation} ) {
     <View style={GlobalStyle.slideSplashScreen}>
       <View style={GlobalStyle.headerSplashScreen}>
         <Image
-            source={require("../../assets/slide1.jpg")}
+            source={require("../../assets/slide4.jpg")}
             style={{height:height_image, width: width_image, marginTop: 20}}
             resizeMode={"stretch"}/>
       </View>
       
       <View style={GlobalStyle.footerSplashScreen}>
-          <Text style={GlobalStyle.splashTitle}> Registre Social Maroc </Text>
+          <Text style={GlobalStyle.splashTitle}> Retrait</Text>
           <Text style={GlobalStyle.splashText}> 
-          L'application pour vous. </Text>
+          Registre Social Maroc l'application pour vous. </Text>
       
       <View 
       style={{flexDirection:'row'}}>
@@ -83,7 +83,7 @@ export default function WelcomePage( {navigation} ) {
           borderRadius: 50,
           marginTop: 15,
           borderWidth: 1,}]}>
-        <Text style={{color: '#83A9DA'}}>Sign Up</Text>
+        <Text style={{color: '#83A9DA'}}>S’inscrire</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -95,7 +95,7 @@ export default function WelcomePage( {navigation} ) {
           marginTop: 15,
           marginLeft: 25,
           borderWidth: 1,}]}>
-        <Text style={{color: 'white'}}>Sign In</Text>
+        <Text style={{color: 'white'}}>Se connecter</Text>
         </TouchableOpacity>
         
         </View>
